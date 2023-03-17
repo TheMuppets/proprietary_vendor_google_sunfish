@@ -6,14 +6,19 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google/sunfish
 
 PRODUCT_COPY_FILES += \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/1and1_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1and1_de.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/a1_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_at.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/ahamo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ahamo_jp.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/airtel_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/airtel_in.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/ais_th.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ais_th.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/apt_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/apt_tw.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/assurance_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/assurance_us.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/astca_as.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/astca_as.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/att5g_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5g_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/att5gsa_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5gsa_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/att_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att_us.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/attmvnos_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/attmvnos_us.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/base_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/base_be.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/bell_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bell_ca.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/bluegrass_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bluegrass_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/boost_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/boost_us.pb \
@@ -21,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/bouygues_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/bouygues_fr.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/btb_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/btb_gb.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/btc_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/btc_gb.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/carolinawest_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carolinawest_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/carrier_list.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carrier_list.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/celcom_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/celcom_my.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/cellcom_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cellcom_us.pb \
@@ -55,6 +61,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/free_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/free_fr.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/freedommobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/freedommobile_ca.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/gamma_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gamma_gb.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/gci_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gci_us.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/gibtel_gi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/gibtel_gi.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/giga_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/giga_sg.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/h3_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_at.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/h3_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/h3_gb.pb \
@@ -77,22 +85,31 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/luckymobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/luckymobile_ca.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/m1_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/m1_sg.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/maxis_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/maxis_my.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/meo_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/meo_pt.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/metropcs_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/metropcs_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/movistar_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_es.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/nextech_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nextech_us.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/nos_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/nos_pt.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/o2_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2_de.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/o2postpaid_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2postpaid_gb.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/o2prepaid_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2prepaid_de.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/o2prepaid_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2prepaid_gb.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/onecall_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/onecall_no.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/optus_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/optus_au.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/orange_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_be.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/orange_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_es.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/orange_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_fr.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/orange_re.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/orange_re.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/others.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/others.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/partner_il.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/partner_il.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/pcmobilebell_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/pcmobilebell_ca.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/pelephone_il.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/pelephone_il.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/play_pl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/play_pl.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/post_lu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/post_lu.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/povo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/povo_jp.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/publicmobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/publicmobile_ca.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/rakuten_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rakuten_jp.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/redpocketatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/redpocketatt_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/redpockettmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/redpockettmo_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/rjio_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rjio_in.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/rogers5g_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers5g_ca.pb \
@@ -102,6 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/simba_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/simba_sg.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/simple_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/simple_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/singtel_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/singtel_sg.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/skinny_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/skinny_nz.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/smarty_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/smarty_gb.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/softbank_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/softbank_jp.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/solomobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/solomobile_ca.pb \
@@ -112,21 +130,30 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/sprintwholesale_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sprintwholesale_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/starhub_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/starhub_sg.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/stc_sa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/stc_sa.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/strata_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/strata_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/sunrise_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/sunrise_ch.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/swisscom_ch.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscom_ch.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/swisscom_li.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/swisscom_li.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/talkmobile_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/talkmobile_gb.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/tango_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tango_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/tbaytel_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tbaytel_ca.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/tchibo_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tchibo_de.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/tdc_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tdc_dk.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/tele2_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tele2_se.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telekom_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_de.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telekom_gr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_gr.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telekom_hr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_hr.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telekom_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_hu.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telekom_pl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_pl.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telekom_sk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telekom_sk.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telenet_be.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenet_be.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telenor_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenor_dk.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telenor_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenor_no.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telenor_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telenor_se.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telia_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_dk.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telia_ee.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_ee.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telia_fi.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_fi.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telia_lt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_lt.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telia_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_no.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telia_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_se.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/telstra_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telstra_au.pb \
@@ -149,7 +176,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/uscc_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uscc_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/verizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verizon_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/verymobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verymobile_it.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/viaero_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/viaero_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/videotron_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/videotron_ca.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vimla_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vimla_se.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/virgin_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/virgin_ca.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/virgin_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/virgin_gb.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/virgin_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/virgin_us.pb \
@@ -160,15 +189,20 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_de.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_es.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_gb.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_hu.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_ie.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_ie.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_in.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_in.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_it.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_nl.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_nz.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_pt.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_pt.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/vodafone_tr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_tr.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/windtre_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/windtre_it.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/xfinity_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/xfinity_us.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/yes_my.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yes_my.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/yettel_hu.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yettel_hu.pb \
     vendor/google/sunfish/proprietary/product/etc/CarrierSettings/yoigo_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/yoigo_es.pb \
+    vendor/google/sunfish/proprietary/product/etc/CarrierSettings/zain_kw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/zain_kw.pb \
     vendor/google/sunfish/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
     vendor/google/sunfish/proprietary/product/etc/felica/common.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/common.cfg \
     vendor/google/sunfish/proprietary/product/etc/felica/mfm.cfg:$(TARGET_COPY_OUT_PRODUCT)/etc/felica/mfm.cfg \
@@ -393,8 +427,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/system_ext/lib64/libQSEEComAPI_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libQSEEComAPI_system.so \
     vendor/google/sunfish/proprietary/system_ext/lib64/libWNR.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libWNR.so \
     vendor/google/sunfish/proprietary/system_ext/lib64/libWNR_intf.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libWNR_intf.so \
-    vendor/google/sunfish/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
-    vendor/google/sunfish/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/google/sunfish/proprietary/system_ext/lib64/libbeluga.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libbeluga.so \
     vendor/google/sunfish/proprietary/system_ext/lib64/libbinauralrenderer_wrapper.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libbinauralrenderer_wrapper.qti.so \
     vendor/google/sunfish/proprietary/system_ext/lib64/libcomposerextn.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomposerextn.qti.so \
