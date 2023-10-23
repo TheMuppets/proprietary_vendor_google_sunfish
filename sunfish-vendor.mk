@@ -1844,7 +1844,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/vendor/lib64/libnetmgr_nr_fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_nr_fusion.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/libnos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnos.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libnos_citadeld_proxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnos_citadeld_proxy.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/libnos_client_citadel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnos_client_citadel.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/libnos_datagram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnos_datagram.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/libnos_datagram_citadel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnos_datagram_citadel.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/libnos_transport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnos_transport.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/libnosprotos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnosprotos.so \
     vendor/google/sunfish/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
@@ -1942,6 +1948,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/vendor/lib64/libwvaidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvaidl.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/google/sunfish/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/nos_app_avb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nos_app_avb.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/nos_app_identity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nos_app_identity.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/nos_app_keymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nos_app_keymaster.so \
+    vendor/google/sunfish/proprietary/vendor/lib64/nos_app_weaver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nos_app_weaver.so \
     vendor/google/sunfish/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/google/sunfish/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/google/sunfish/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
