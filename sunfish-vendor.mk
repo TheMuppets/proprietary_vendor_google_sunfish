@@ -362,7 +362,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     atfwd \
     com.qualcomm.qti.services.secureui \
-    datastatusnotification \
     uceShimService \
     CarrierSetup \
     EuiccGoogleOverlay \
