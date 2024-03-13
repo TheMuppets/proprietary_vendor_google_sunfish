@@ -564,6 +564,15 @@ dex_import {
 }
 
 prebuilt_etc_xml {
+	name: "manifest_wifi_ext_aidl",
+	owner: "google",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext_aidl.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.hardware.radio.atcmdfwd@1.0",
 	owner: "google",
 	src: "proprietary/system_ext/etc/vintf/manifest/vendor.qti.hardware.radio.atcmdfwd@1.0.xml",
@@ -744,15 +753,6 @@ prebuilt_etc_xml {
 	name: "manifest_input.processor-service",
 	owner: "google",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_input.processor-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_wifi_ext",
-	owner: "google",
-	src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
