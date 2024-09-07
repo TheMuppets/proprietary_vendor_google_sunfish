@@ -118,8 +118,8 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.extensions \
     google-ril \
     qcrilhook \
-    manifest_wifi_ext_aidl \
-    vendor.qti.hardware.radio.atcmdfwd@1.0
+    manifest_wifi_ext_aidl.xml \
+    vendor.qti.hardware.radio.atcmdfwd@1.0.xml
 
 PRODUCT_PACKAGES += \
     libdmengine_libdmengine_symlink32 \
@@ -1861,15 +1861,15 @@ PRODUCT_PACKAGES += \
     adreno_graphics_driver \
     gpu_profiling_vulkan_layer \
     com.google.android.camera.experimental2020_midyear \
-    android.hardware.confirmationui@1.0-service-google \
-    android.hardware.identity.strongbox \
-    android.hardware.keymaster@4.1-service.citadel \
-    android.hardware.neuralnetworks@1.3-service-qti \
-    android.hardware.weaver@1.0-service.citadel \
-    manifest_android.hardware.drm-service.widevine \
-    manifest_input.processor-service \
-    rebootescrow-citadel \
-    vendor.google.google_battery-default
+    android.hardware.confirmationui@1.0-service-google.xml \
+    android.hardware.identity.strongbox.xml \
+    android.hardware.keymaster@4.1-service.citadel.xml \
+    android.hardware.neuralnetworks@1.3-service-qti.xml \
+    android.hardware.weaver@1.0-service.citadel.xml \
+    manifest_android.hardware.drm-service.widevine.xml \
+    manifest_input.processor-service.xml \
+    rebootescrow-citadel.xml \
+    vendor.google.google_battery-default.xml
 
 PRODUCT_PACKAGES += \
     libEGL_adreno_libEGL_adreno_symlink32 \
