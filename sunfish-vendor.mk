@@ -48,12 +48,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se-lineage.xml \
     vendor/google/sunfish/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/google/sunfish/proprietary/system_ext/etc/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vzw_mvs_permissions.xml \
-    vendor/google/sunfish/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
-    vendor/google/sunfish/proprietary/vendor/etc/init/vendor.google.wifi_ext-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wifi_ext-service.rc
+    vendor/google/sunfish/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml
 
 PRODUCT_PACKAGES += \
-    google_wifi_firmware_config_info_cc_proto \
-    vendor.google.wifi_ext-V3-ndk \
     libdmengine \
     libdmjavaplugin \
     lib-imsvideocodec \
@@ -117,9 +114,7 @@ PRODUCT_PACKAGES += \
     com.google.android.camera.extensions \
     google-ril \
     qcrilhook \
-    manifest_wifi_ext_aidl.xml \
-    vendor.qti.hardware.radio.atcmdfwd@1.0.xml \
-    vendor.google.wifi_ext-service-vendor
+    vendor.qti.hardware.radio.atcmdfwd@1.0.xml
 
 PRODUCT_PACKAGES += \
     libdmengine_libdmengine_symlink32 \
