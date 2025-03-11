@@ -19451,31 +19451,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.google.google_battery-V2-ndk",
-    owner: "google",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.google.google_battery-V2-ndk.so",
-            ],
-            shared_libs: [
-                "libbinder_ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.google.wifi_ext@1.0",
     owner: "google",
     strip: {
@@ -20829,15 +20804,6 @@ prebuilt_etc_xml {
     soc_specific: true,
 }
 
-prebuilt_etc_xml {
-    name: "vendor.google.google_battery-default.xml",
-    owner: "google",
-    src: "proprietary/vendor/etc/vintf/manifest/vendor.google.google_battery-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "PktRspTest",
     owner: "google",
@@ -21794,34 +21760,6 @@ cc_prebuilt_binary {
                 "libril-qc-hal-qmi",
                 "libhardware_legacy",
                 "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.google.google_battery-service",
-    owner: "google",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.google.google_battery-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "vendor.google.google_battery-V2-ndk",
                 "libc++",
                 "libc",
                 "libm",

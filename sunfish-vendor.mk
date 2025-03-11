@@ -554,7 +554,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sunfish/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/rebootescrow-citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rebootescrow-citadel.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
-    vendor/google/sunfish/proprietary/vendor/etc/init/vendor.google.google_battery-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.google_battery-default.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/vendor.google.radioext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.radioext@1.0-service.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-sscrpc-service.rc \
     vendor/google/sunfish/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
@@ -1347,7 +1346,6 @@ PRODUCT_PACKAGES += \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
-    vendor.google.google_battery-V2-ndk \
     vendor.google.wifi_ext@1.0 \
     vendor.qti.googleext.imsext@1.0 \
     vendor.qti.googleext.imsext@2.0 \
@@ -1416,7 +1414,6 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_input.processor-service.xml \
     rebootescrow-citadel.xml \
-    vendor.google.google_battery-default.xml \
     PktRspTest \
     adsprpcd \
     cdsprpcd \
@@ -1447,7 +1444,6 @@ PRODUCT_PACKAGES += \
     citadeld \
     init_citadel \
     qcrild \
-    vendor.google.google_battery-service \
     vendor.google.radioext@1.0-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
